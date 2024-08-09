@@ -1,0 +1,9 @@
+nomad:
+  gui:
+    config:
+      apps:
+        exclude:
+          - nomad_aitoolkit.apps:aitoolkit
+  config:
+    plugins:
+      options: []
